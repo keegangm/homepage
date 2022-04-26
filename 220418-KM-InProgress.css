@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@200;300&family=Inknut+Antiqua:wght@600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oleo+Script:wght@400;700&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-align: center;
+    color: #545E56;
+    /* background-color: #FBFAF8;*/
+    /* background-color: #E7DECD;
+    background-color: #f8f2e7; */
+    /* background-image: url('https://images.unsplash.com/photo-1624967661755-11bdbf5a6aa7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80');
+    opacity: 0.2;   
+    background-blend-mode: screen; 
+    
+    /* background image using ":before" and after etc */
+
+    /* background: url('https://images.unsplash.com/photo-1615799998603-7c6270a45196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=808&q=80') rgba(239, 237, 214, 0.5);
+    background-blend-mode: multiply; */
+}
+
+.fullpage-div {
+    
+    /*overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;*/
+} 
+
+#mainarea-outer {
+    position: relative;
+    height: 92vh;
+    /* border: 10px solid #FE5D26; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#mainarea-inner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   /* border: 5px solid green; */
+}
+#main-grid {
+    display: grid;
+    grid-template-rows: 60vh 25vh;
+    align-content: center;
+    height: 1500px;
+    /* border: 5px solid green; */
+    align-items: center;
+}
+h1 {
+    color: #FE5D26;
+    font-family: 'Inknut Antiqua', Times, serif;
+    font-size: 5vw;
+    line-height: .7;
+    padding-bottom: 20px;
+}
+
+/* h1:hover {
+    font-weight: 100;
+} */
+
+#inprogress-text{
+    font-weight: 300;
+    /* color: #536B78; */
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+/* want individual words in h1 to itallicize on hover */
+
+#km-logo {
+   text-transform: uppercase;
+   
+}
+#km-logo a{
+    text-decoration: none;
+    color: inherit;
+}
+#km-logo a:hover{
+    color:#FE5D26;
+    border: 3px solid #FE5D26;
+    padding: 15px;
+    border-radius: 1px;
+}
+#km-logo a:active{
+    color: #cd3c0b;
+    border: 3px solid #cd3c0b;
+    padding: 15px;
+    border-radius: 1px;
+}
